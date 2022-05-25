@@ -1,0 +1,19 @@
+{
+    "linkId": "124296",
+    "text": "What is your living situation today?",
+    "item": [
+        {
+        "linkId": "124296",
+        "text": "What is your living situation today?",
+        "answer": [
+            {
+                "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA31993-1",
+                    "display": "I have a steady place to live"
+                }
+            }
+        ]
+    }
+    ]
+}

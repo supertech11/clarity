@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+  <link href="http://165.227.86.45:9100/css/lforms.min.css"
+media="screen"rel="stylesheet"/>
+</head>
+<body>
+  <script
+    src="http://165.227.86.45:9100/js/lforms.min.js"
+    ></script>
+    <script src="http://165.227.86.45:9100/fhir/R4/lformsFHIR.min.js"></script>
+    <div id="myFormContainer"></div>
+
+    <!-- <button onclick="myFunction()">Submit</button> -->
+    <div class="container bg-light">
+        <div class="col-md-12 text-center">
+            <button  type="button" class="btn btn-primary btn-lg" onclick="myFunction()" margin-bottom: 150px>Submit</button>
+        </div>
+    </div>
+      
+</button>
+    <script>
+        LForms.Util.addFormToPage(codecdec , 'myFormContainer');
+      </script>
+      <script>
+        function myFunction() {
+          var a = LForms.Util.getFormFHIRData("QuestionnaireResponse","R4");//LForms.Util.getUserData();
+        window.open("https://www.codexworld.com?acc="+JSON. stringify(a), "_self");
+        }
+    </script>
+
+      
+
+</body>
+</html>

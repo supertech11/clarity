@@ -1,0 +1,15 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.parallelscore.saffron_clarity",
+            "sha256_cert_fingerprints": [
+                "13:A4:C6:44:2D:BD:FD:38:75:C5:B1:FB:76:E8:35:6A:5C:27:63:35:E0:32:BC:85:78:01:DC:A7:1C:30:5F:D4",
+                "D8:86:9A:C3:29:27:72:5C:90:11:B8:05:A9:63:E1:4A:6E:45:F5:42:AD:96:A8:F1:55:1B:27:F2:85:21:31:DF"
+            ]
+        }
+    }
+]
